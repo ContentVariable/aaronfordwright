@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
     />
+    <link href="hamburgers.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <title>Aaron Ford-Wright</title>
     <link rel="shortcut icon" type="image/jpg" href="Favicon_V1.png" />
@@ -19,6 +20,13 @@
         <a href="portfolio.html" target="_self">
           <img class="header-logo" src="Header-LogoV2.png" alt="logo" />
         </a>
+      </div>
+      <div class="menuBtn">
+        <button class="hamburger hamburger--collapse btnColor" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
       </div>
       <nav id="navbar" class="nav">
         <ul class="nav-list">
@@ -32,16 +40,32 @@
             <a href="#contact-me" target="_self">Contact</a>
           </li>
           <li>
-            <a href="Resume 2021 - V2.pdf" target="_blank">Resume</a>
+            <a href="Resume 2021 - V3.pdf" target="_blank">Resume</a>
           </li>
         </ul>
       </nav>
+      <div class="mobile-wrapper navBar-inactive">
+        <ul id="nav-list-mobile" class="hidden">
+          <li>
+            <a href="#projects" target="_self">Projects</a>
+          </li>
+          <li>
+            <a href="#about-me" target="_self">About</a>
+          </li>
+          <li>
+            <a href="#contact-me" target="_self">Contact</a>
+          </li>
+          <li>
+            <a href="Resume 2021 - V3.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- END NAV BAR -->
     <!-- WELCOME -->
     <section id="welcome-section" class="welcome-section">
       <h1>Hey I'm</h1>
-      <img src="NameLogo-V2.png" />
+      <img src="NameLogo-V2.png" alt="Name_Logo" />
       <p>Website Developer & Designer</p>
     </section>
     <!-- END WELCOME -->
@@ -135,22 +159,22 @@
           <hr />
           <p class="project-title">DICE GAME</p>
         </a>
-        <a
-          href="https://codepen.io/contentvariable/"
-          class="btn btn-see-more"
-          target="_blank"
-          >See More ></a
-        >
       </div>
+      <a
+        href="https://codepen.io/contentvariable/"
+        class="btn btn-see-more"
+        target="_blank"
+        >See More ></a
+      >
     </section>
     <!-- END PROJECTS -->
     <!-- ABOUT ME -->
     <section id="about-me" class="about-section">
       <div class="about-container">
-        <div class="about-left">
+        <div class="image">
           <img src="20210531_203240.jpg" class="self-pic" alt="Me" />
         </div>
-        <div class="about-right">
+        <div class="text">
           <section class="about-text">
             <h2>About Me</h2>
             <p>
