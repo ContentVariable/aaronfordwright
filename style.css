@@ -203,9 +203,10 @@ h2 {
   }
 
   /* CONTACT ME MOBILE */
+
   .contact-section-header {
     font-size: 1em;
-    margin-top: 80em;
+    margin-top: 60em;
     padding-bottom: 6em;
   }
 
@@ -215,12 +216,11 @@ h2 {
 
   .contact-links {
     font-size: 120%;
-    padding-bottom: 6em;
   }
 
   /* FOOTER MOBILE */
   footer {
-    height: 100px;
+    height: 200px;
     margin-top: 30em;
     bottom: 0;
   }
