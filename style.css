@@ -258,6 +258,10 @@ h2 {
     margin-bottom: 6rem;
   }
 
+  .html-css-js {
+    font-size: 2em;
+  }
+
   /* ABOUT ME MOBILE */
   .about-section {
     display: flex;
@@ -301,7 +305,8 @@ h2 {
   }
 
   .contact-section-header {
-    padding: 20em 0 0 2em;
+    font-size: 1.5em;
+    margin-top: 20em;
   }
 
   .contact-links .btn {
