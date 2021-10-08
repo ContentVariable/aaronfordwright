@@ -301,12 +301,12 @@ h2 {
 
   /* CONTACT ME MOBILE */
   .contact-section {
-    padding: 20em 0;
+    padding: 25em 0;
   }
 
   .contact-section-header {
     font-size: 1.5em;
-    margin-top: 20em;
+    margin-top: 30em;
   }
 
   .contact-links .btn {
@@ -319,7 +319,13 @@ h2 {
 
   /* FOOTER MOBILE */
   footer {
-    padding-top: 20em;
+    height: 200px;
+    padding-top: 10em;
+    bottom: 0;
+  }
+
+  footer p {
+    align-self: center;
   }
 }
 
